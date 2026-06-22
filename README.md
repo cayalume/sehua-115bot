@@ -3,6 +3,15 @@
 
 > 基于 Golang + Selenium 的全自动色花堂磁力采集与 115 云盘分类下载工具，支持通过 Telegram 机器人实现远程一键触发。
 
+## 💬 交流群组
+
+欢迎加入 Telegram 群组进行交流反馈：
+[sehua_115bot](https://t.me/sehua_115bot)
+## 基本信息
+- 容器默认端口:9898
+- 默认账号:admin 密码:admin
+- cookie获取(推荐):[115不大助手](https://greasyfork.org/zh-CN/scripts/474231-115不大助手-full?locale_override=1)
+  
 ## 📷 前端预览
 ![界面预览](./scr/IMG_20260622_192151.png) 
 ## ✨ 核心功能
