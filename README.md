@@ -12,7 +12,7 @@
 - 默认账号:admin 密码:admin
 - cookie获取(推荐):[115不大助手](https://greasyfork.org/zh-CN/scripts/474231-115不大助手-full?locale_override=1)
 
-#4 更新日志
+## 更新日志
  - v1.0.1  2026-06-23
    
    - 移除云下载后的清理步骤，该步骤有概率触发cookie失效问题
