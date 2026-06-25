@@ -87,6 +87,9 @@ services:
       - /opt/sehua/config.yaml:/app/config.yaml
     environment:
       - TZ=Asia/Shanghai
+      # ⚠️ 请将 127.0.0.1:7890 替换为你实际的代理 IP 和端口
+      - HTTP_PROXY=http://127.0.0.1:7890
+      - HTTPS_PROXY=http://127.0.0.1:7890
 ```
 ## 📝 路径映射说明
 
