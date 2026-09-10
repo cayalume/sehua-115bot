@@ -14,6 +14,11 @@
 - strm工具：[CayFlow](https://github.com/cayalume/strm-CayFlow)
 
 ## 更新日志
+- v1.0.5 2026-09-10
+  - 修复刮削简介丢失问题
+  - 修复poster图片抓取、裁剪异常问题
+  - 修复某些情况下刮削失败问题
+    
 - v1.0.4    2026-09-08
   - 新增arm架构支持
   - 账号添加方式改为扫码自动获取cookie
