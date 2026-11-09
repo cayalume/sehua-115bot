@@ -19,6 +19,9 @@
 - strm工具：[CayFlow](https://github.com/cayalume/strm-CayFlow)
 
 ## 更新日志
+- v1.1.4 2026-11-09
+- 黄果：
+  * 新增 [野果短剧](https://yeguodj.com/) 订阅源，提供更高分辨率的视频源
 - v1.1.3 2026-11-07
 - 色花：
   * 新增`Jasna 资源库`板块，提供ltx破解模型资源
