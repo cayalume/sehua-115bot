@@ -12,6 +12,7 @@
   <img src="https://img.shields.io/badge/version-v1.1.5-blue" alt="version">
   <img src="https://img.shields.io/badge/updated-2026--11--12-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
+  <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
 
 <p align="center">
