@@ -388,6 +388,7 @@ touch /opt/sehua/config.yaml
 
 - ✨ 新增ltx板块自动过Cloudflare人机检测
 - ✨ 新增筛选选项，可按`分类` `演员` `厂商`筛选
+- ⚠️ 更新后ltx板块打开如果提示`查询失败: SQL logic error: no such table: items`，可以把`data/ltxdb/ltx.db` 文件删了重启容器应该就好
 
 </details>
 <details>
