@@ -9,10 +9,9 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.1.4-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--09-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.1.5-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--12-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
-  <img src="https://img.shields.io/badge/status-active-success" alt="status">
 </p>
 
 <p align="center">
@@ -380,7 +379,18 @@ touch /opt/sehua/config.yaml
 ## 📦 更新日志
 
 <details open>
-<summary><b>🚀 v1.1.4</b> · <code>2026-11-09</code></summary>
+<summary><b>🚀 v1.1.5</b> · <code>2026-11-12</code></summary>
+
+<br>
+
+**色花**
+
+- ✨ 新增ltx板块自动过Cloudflare人机检测
+- ✨ 新增筛选选项，可按`分类` `演员` `厂商`筛选
+
+</details>
+<details>
+<summary><b>🧩 v1.1.4</b> · <code>2026-11-09</code></summary>
 
 <br>
 
