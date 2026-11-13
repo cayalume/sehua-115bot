@@ -61,7 +61,9 @@ docker logs --tail 100 sehua-115bot
 ## 📷 界面预览
 
 <p align="center">
-  <img src="./scr/image.png" width="100%" alt="面板预览">
+  <img src="./scr/87d0b6be-2da4-4da7-b189-73b6c93953fa.png" width="100%" alt="短剧预览">
+  <img src="./scr/9959a088-ad4f-4fb1-91c4-efefdbe9c503.png" width="100%" alt="ltx面板">
+  <img src="./scr/e0434783-50fc-4852-9c85-6ff4a9defc53.png" width="100%" alt="刮削预览">
   <br>
   <sub>面板首页：采集、短剧、LTX、刮削集中在左侧导航</sub>
 </p>
