@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.1.5-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--12-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.1.6-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--13-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
   <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
@@ -382,7 +382,20 @@ touch /opt/sehua/config.yaml
 ## 📦 更新日志
 
 <details open>
-<summary><b>🚀 v1.1.5</b> · <code>2026-11-12</code></summary>
+<summary><b>🚀 v1.1.6</b> · <code>2026-11-13</code></summary>
+
+<br>
+
+- ✨ 新增代理配置页面
+- ✨ 优化黄果短剧页面每日更新控件显示
+- 🐛 修复黄果短剧标题解析异常
+- 🐛 修复ltx板块打开显示`查询失败: SQL logic error: no such table: items`问题
+
+
+</details>
+
+<details>
+<summary><b>🧩 v1.1.5</b> · <code>2026-11-12</code></summary>
 
 <br>
 
