@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.1.6-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--13-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.1.7-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--15-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
   <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
@@ -382,7 +382,20 @@ touch /opt/sehua/config.yaml
 ## 📦 更新日志
 
 <details open>
-<summary><b>🚀 v1.1.6</b> · <code>2026-11-13</code></summary>
+<summary><b>🚀 v1.1.7</b> · <code>2026-11-15</code></summary>
+
+<br>
+
+- ✨ 根据资源链接命名剔除部分假LTX资源
+- ✨ 账号管理页面新增tg账号登录
+- ✨ LTX版块新增tg频道订阅，可选择已加入的频道/群聊监控抓取链接存入板块中
+- ✨ LTX新增按来源筛选，Jasna 资源库/色花堂/频道订阅
+- ✨ 优化字幕刮削流程，现在能抓取更多字幕了
+
+</details>
+
+<details>
+<summary><b>🧩 v1.1.6</b> · <code>2026-11-13</code></summary>
 
 <br>
 
