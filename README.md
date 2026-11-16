@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.1.7-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--15-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.1.8-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--16-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
   <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
@@ -382,7 +382,21 @@ touch /opt/sehua/config.yaml
 ## 📦 更新日志
 
 <details open>
-<summary><b>🚀 v1.1.7</b> · <code>2026-11-15</code></summary>
+<summary><b>🚀 v1.1.8</b> · <code>2026-11-16</code></summary>
+
+<br>
+
+- 🐛 修复`ltx板块`提示`人机验证失败`问题
+- 🐛 修复刮削时`字幕刮削`启动失败问题
+- 🐛 修复刮削时`数据目录不匹配`导致刮削失败问题
+- ✨ 优化整体刮削逻辑流程和日志
+- ✨ 移除爬取上限最多60条数据限制
+
+
+</details>
+
+<details>
+<summary><b>🧩 v1.1.7</b> · <code>2026-11-15</code></summary>
 
 <br>
 
