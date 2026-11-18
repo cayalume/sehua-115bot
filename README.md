@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.1.8-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--16-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.1.9-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--18-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
   <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
@@ -382,7 +382,21 @@ touch /opt/sehua/config.yaml
 ## 📦 更新日志
 
 <details open>
-<summary><b>🚀 v1.1.8</b> · <code>2026-11-16</code></summary>
+<summary><b>🚀 v1.1.9</b> · <code>2026-11-18</code></summary>
+
+<br>
+
+- ✨ 刮削目录新增刮削配置，按需选填，某些选项可能导致刮削时间变长
+- ✨ 新增内置图片刮削源，使用日本节点可以获取更多高清封面
+- 🐛 修复野果短剧封面异常问题
+- 🐛 修复频道订阅显示重复频道问题
+- ✨ 优化刮削逻辑，避免频繁提示封控
+
+
+</details>
+
+<details>
+<summary><b>🧩 v1.1.8</b> · <code>2026-11-16</code></summary>
 
 <br>
 
