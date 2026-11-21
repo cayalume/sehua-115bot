@@ -428,6 +428,7 @@ LTX 的接口有 Cloudflare Turnstile 人机验证，程序会自动用无头浏
 <summary><b>🚀 v1.2.0</b> · <code>2026-11-21</code></summary>
 
 <br>
+
 - ✨ `LTX板块`加入`/zd`命令列表，现在可以设置定时任务了
 - ✨ 刮削时优先使用`Jasna 资源库`番号配套字幕
 - ✨ 优化自动过`Cloudflare人机验证`流程
