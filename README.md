@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.1.9-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--18-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.2.0-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--21-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
   <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
@@ -28,9 +28,7 @@
 
 一个跑在自己服务器上的**资源自动化工具**。
 
-你只需要配好一次：指定板块、订阅想看的短剧；之后的新内容由它自己发现、下载、刮削、推进 115，Emby / Jellyfin 里直接就能看。
-
-适合已经用 115 + Emby 的人，想把「找资源 → 下载 → 整理 → 入库」这条链路彻底自动化，而不是每天手动贴磁力。
+项目已经内置了资源源，会定时爬取详情并整理，你只需要配好一次：指定板块、订阅想看的短剧；之后的新内容由它自己发现、下载、刮削、推进 115，Emby / Jellyfin 里直接就能看。
 
 ## 💬 交流与反馈
 
@@ -239,7 +237,7 @@ services:
 在「其他设置」打开「自动刮削」后，`/sht`、`/zd` 触发的采集任务结束会自动进入刮削：
 
 ```
-扫描目录 → 识别番号 → 抓取元数据 → 生成封面 → 整理命名 → 上传网盘
+扫描目录 → 识别番号 → 抓取元数据和字幕 → 生成封面 → 整理命名 → 上传网盘
 ```
 
 ### 手动刮削
@@ -433,7 +431,20 @@ LTX 的接口有 Cloudflare Turnstile 人机验证，程序会自动用无头浏
 ## 📦 更新日志
 
 <details open>
-<summary><b>🚀 v1.1.9</b> · <code>2026-11-18</code></summary>
+<summary><b>🚀 v1.2.0</b> · <code>2026-11-21</code></summary>
+
+<br>
+- ✨ `LTX板块`加入`/zd`命令列表，现在可以设置定时任务了
+- ✨ 刮削时优先使用`Jasna 资源库`番号配套字幕
+- ✨ 优化自动过`Cloudflare人机验证`流程
+- ✨ 优化演员中文映射逻辑
+- ✨ 优化封面打水印时机，现在不会等刮削完才开始打水印上传poster
+
+
+</details>
+
+<details>
+<summary><b>🧩 v1.2.0</b> · <code>2026-11-18</code></summary>
 
 <br>
 
