@@ -9,8 +9,8 @@
 <p align="center">
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot"><img src="https://img.shields.io/docker/pulls/cayalume/sehua-115bot?label=pulls&logo=docker&logoColor=white&color=2496ed" alt="docker pulls"></a>
   <a href="https://hub.docker.com/r/cayalume/sehua-115bot/tags"><img src="https://img.shields.io/docker/image-size/cayalume/sehua-115bot/latest?label=image%20size" alt="image size"></a>
-  <img src="https://img.shields.io/badge/version-v1.2.0-blue" alt="version">
-  <img src="https://img.shields.io/badge/updated-2026--11--21-brightgreen" alt="updated">
+  <img src="https://img.shields.io/badge/version-v1.2.1-blue" alt="version">
+  <img src="https://img.shields.io/badge/updated-2026--11--22-brightgreen" alt="updated">
   <img src="https://img.shields.io/badge/arch-amd64%20%7C%20arm64-informational" alt="arch">
   <a href="https://t.me/sehua_115bot"><img src="https://img.shields.io/badge/Telegram-交流群-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
